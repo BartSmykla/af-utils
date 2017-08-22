@@ -8,5 +8,8 @@
   "devDependencies": {
     "doxdox": "^2.0.3",
     "jsdoc": "^3.5.4"
+  },
+  "scripts": {
+    "docs": "./node_modules/.bin/doxdox --layout markdown --output DOCUMENTATION.md 'src/**/*.js'"
   }
 }
