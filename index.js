@@ -16,8 +16,8 @@ fs
       const isProperUtil = utilDir.includes(`${dir}.js`);
 
       if (isProperUtil)
-        Object.assign(required, require(`./src/${dir}/${dir}.js`));
+        Object.assign(required, { [dir]: require(`./src/${dir}/${dir}.js`) });
     }
   });
 
-  module.exports = required;
+module.exports = required;

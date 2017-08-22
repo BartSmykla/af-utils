@@ -86,4 +86,6 @@ const deepCompare = (...args) => {
   }
 
   return true;
-}
+};
+
+module.exports = deepCompare;
