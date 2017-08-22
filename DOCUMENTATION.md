@@ -22,6 +22,19 @@ Simple function for change string from snake_case to camelCase
 
 
 
+##### Examples
+
+```javascript
+camelize('foo_bar'); // returns 'fooBar'
+```
+```javascript
+camelize('BAR_BAZ'); // returns 'barBaz'
+```
+```javascript
+camelize('BAZFOO'); // returns 'bazfoo'
+```
+
+
 ##### Returns
 
 
