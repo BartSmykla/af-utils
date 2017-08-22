@@ -4,5 +4,9 @@
   "description": "bunch of utility/helper functions",
   "main": "index.js",
   "author": "Bartłomiej Smykla <bartek@smykla.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "doxdox": "^2.0.3",
+    "jsdoc": "^3.5.4"
+  }
 }
