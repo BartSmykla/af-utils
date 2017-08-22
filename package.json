@@ -1,0 +1,8 @@
+{
+  "name": "af-utils",
+  "version": "1.0.0",
+  "description": "bunch of utility/helper functions",
+  "main": "index.js",
+  "author": "Bartłomiej Smykla <bartek@smykla.com",
+  "license": "MIT"
+}
