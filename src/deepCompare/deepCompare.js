@@ -1,3 +1,9 @@
+/**
+ * Function to deep object comparision
+ * 
+ * @param {any} args
+ * @returns {boolean} true when compared objects are equal, and false when opposite
+ */
 const deepCompare = (...args) => {
   let i;
   let l;
