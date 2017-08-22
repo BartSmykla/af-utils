@@ -1,7 +1,7 @@
 /**
  * Simple function for change string from snake_case to camelCase
  * 
- * @param {string} str - string which will be camelized
+ * @param {string} str string which will be camelized
  * @example
  * camelize('foo_bar'); // returns 'fooBar'
  * @example
