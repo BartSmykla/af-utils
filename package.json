@@ -10,6 +10,6 @@
     "jsdoc": "^3.5.4"
   },
   "scripts": {
-    "docs": "./node_modules/.bin/doxdox --layout markdown --output DOCUMENTATION.md 'src/**/*.js'"
+    "docs": "./node_modules/.bin/doxdox --layout markdown --output README.md 'src/**/*.js'"
   }
 }
