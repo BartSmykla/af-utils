@@ -1,4 +1,4 @@
-# af-utils *1.0.5*
+# af-utils *1.0.6*
 
 > bunch of utility/helper functions
 
@@ -17,7 +17,7 @@ Simple function for change string from snake_case to camelCase
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| str | `string`  | - string which will be camelized | &nbsp; |
+| str | `string`  | string which will be camelized | &nbsp; |
 
 
 
@@ -39,6 +39,33 @@ camelize('BAZFOO'); // returns 'bazfoo'
 
 
 - `string`  camelized string
+
+
+
+
+### src/deepCompare/deepCompare.js
+
+
+#### deepCompare(args) 
+
+Function to deep object comparision
+
+
+
+
+##### Parameters
+
+| Name | Type | Description |  |
+| ---- | ---- | ----------- | -------- |
+| args | `any`  |  | &nbsp; |
+
+
+
+
+##### Returns
+
+
+- `boolean`  true when compared objects are equal, and false when opposite
 
 
 
