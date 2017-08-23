@@ -8,10 +8,13 @@
  * const obj1 = {
  *   foo: 'bar',
  * };
+ * 
  * const obj2 = {
  *   'foo': 'bar'
  * };
+ * 
  * deepCompare(obj1, obj2); // returns true
+ * @example
  * deepCompare({ foo: true }, { bar: true }); // returns false
  * @returns {boolean} true when compared objects are equal, and false when opposite
  */

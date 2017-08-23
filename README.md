@@ -1,4 +1,4 @@
-# af-utils *1.0.6*
+# af-utils *1.0.7*
 
 > bunch of utility/helper functions
 
@@ -71,10 +71,14 @@ deepCompare({}, {}); // returns true
 const obj1 = {
   foo: 'bar',
 };
+
 const obj2 = {
   'foo': 'bar'
 };
+
 deepCompare(obj1, obj2); // returns true
+```
+```javascript
 deepCompare({ foo: true }, { bar: true }); // returns false
 ```
 
