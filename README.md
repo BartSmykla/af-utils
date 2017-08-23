@@ -1,4 +1,4 @@
-# af-utils *1.0.7*
+# af-utils *1.0.8*
 
 > bunch of utility/helper functions
 
@@ -39,6 +39,35 @@ camelize('BAZFOO'); // returns 'bazfoo'
 
 
 - `string`  camelized string
+
+
+
+
+### src/debounce/debounce.js
+
+
+#### debounce(func, wait[, immediate]) 
+
+Simple function debouncing
+
+
+
+
+##### Parameters
+
+| Name | Type | Description |  |
+| ---- | ---- | ----------- | -------- |
+| func | `function`  | dunction which will be debounced | &nbsp; |
+| wait | `number`  | number of milliseconds to debounce | &nbsp; |
+| immediate | `any`  | optional argument, which if set to true will immediately fire debounced function | *Optional* |
+
+
+
+
+##### Returns
+
+
+- `Void`
 
 
 

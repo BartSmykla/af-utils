@@ -1,3 +1,10 @@
+/**
+ * Simple function debouncing
+ * 
+ * @param {function} func dunction which will be debounced
+ * @param {number} wait number of milliseconds to debounce
+ * @param {any} [immediate] optional argument, which if set to true will immediately fire debounced function
+ */
 const debounce = (func, wait, immediate) => {
   let timeout;
 
