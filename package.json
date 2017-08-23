@@ -1,6 +1,6 @@
 {
   "name": "af-utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "bunch of utility/helper functions",
   "main": "index.js",
   "author": "Bartłomiej Smykla <bartek@smykla.com",
