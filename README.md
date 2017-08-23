@@ -91,4 +91,53 @@ deepCompare({ foo: true }, { bar: true }); // returns false
 
 
 
+### src/isFunction/isFunction.js
+
+
+#### isFunction(item) 
+
+Simple function which is checking if given argument is a function
+
+
+
+
+##### Parameters
+
+| Name | Type | Description |  |
+| ---- | ---- | ----------- | -------- |
+| item | `any`  | anything which should be checked if is function | &nbsp; |
+
+
+
+
+##### Examples
+
+```javascript
+const noop = () => {};
+isFunction(noop); // returns true
+```
+```javascript
+function noop() {};
+isFunction(noop); // returns true
+```
+```javascript
+const noop = function() {};
+isFunction(noop); // returns true
+```
+```javascript
+isFunction({}); // returns false
+```
+```javascript
+isFunction('string'); // returns false
+```
+
+
+##### Returns
+
+
+- `boolean`  true if argument is function, false if not
+
+
+
+
 *Documentation generated with [doxdox](https://github.com/neogeek/doxdox).*
