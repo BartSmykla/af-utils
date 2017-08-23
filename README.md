@@ -46,7 +46,7 @@ camelize('BAZFOO'); // returns 'bazfoo'
 ### src/deepCompare/deepCompare.js
 
 
-#### deepCompare(args) 
+#### deepCompare(arg) 
 
 Function to deep object comparision
 
@@ -57,9 +57,26 @@ Function to deep object comparision
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| args | `any`  |  | &nbsp; |
+| arg | `Object`  | - objects which will be compared to eachself | &nbsp; |
 
 
+
+
+##### Examples
+
+```javascript
+deepCompare({}, {}); // returns true
+```
+```javascript
+const obj1 = {
+  foo: 'bar',
+};
+const obj2 = {
+  'foo': 'bar'
+};
+deepCompare(obj1, obj2); // returns true
+deepCompare({ foo: true }, { bar: true }); // returns false
+```
 
 
 ##### Returns
