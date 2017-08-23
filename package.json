@@ -12,6 +12,8 @@
     "mocha": "^3.5.0"
   },
   "scripts": {
-    "docs": "./node_modules/.bin/doxdox --layout markdown --output README.md 'src/**/*.js'"
+    "docs": "./node_modules/.bin/doxdox --layout markdown --output README.md 'src/**/*.js'",
+    "test": "./node_modules/.bin/mocha ./src/**/*.spec.js",
+    "test:watch": "./node_modules/.bin/mocha ./src/**/*.spec.js --watch"
   }
 }
