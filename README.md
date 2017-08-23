@@ -91,6 +91,33 @@ deepCompare({ foo: true }, { bar: true }); // returns false
 
 
 
+### src/genUuid/genUuid.js
+
+
+#### genUuid() 
+
+Function for generating universally unique identifier (RFC 4122 v4)
+
+
+
+
+
+
+##### Examples
+
+```javascript
+genUuid() // returns for example: 'c127d3bb-4c34-429b-ab6a-a6b4073ef6d4'
+```
+
+
+##### Returns
+
+
+- `string`  generated random Uuid
+
+
+
+
 ### src/isFunction/isFunction.js
 
 
