@@ -1,7 +1,18 @@
 /**
  * Function to deep object comparision
  * 
- * @param {any} args
+ * @param {...Object} arg - objects which will be compared to eachself
+ * @example
+ * deepCompare({}, {}); // returns true
+ * @example
+ * const obj1 = {
+ *   foo: 'bar',
+ * };
+ * const obj2 = {
+ *   'foo': 'bar'
+ * };
+ * deepCompare(obj1, obj2); // returns true
+ * deepCompare({ foo: true }, { bar: true }); // returns false
  * @returns {boolean} true when compared objects are equal, and false when opposite
  */
 const deepCompare = (...args) => {
