@@ -1,4 +1,4 @@
-# af-utils *1.0.8*
+# af-utils *1.0.9*
 
 > bunch of utility/helper functions
 
@@ -86,7 +86,7 @@ Function to deep object comparision
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| arg | `Object`  | - objects which will be compared to eachself | &nbsp; |
+| arg | `Object`  | objects which will be compared to eachself | &nbsp; |
 
 
 

@@ -1,7 +1,7 @@
 /**
  * Function to deep object comparision
  * 
- * @param {...Object} arg - objects which will be compared to eachself
+ * @param {...Object} arg objects which will be compared to eachself
  * @example
  * deepCompare({}, {}); // returns true
  * @example
