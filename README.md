@@ -1,4 +1,4 @@
-# af-utils *1.1.0*
+# af-utils *1.1.1*
 
 > bunch of utility/helper functions
 
