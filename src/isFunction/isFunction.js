@@ -20,6 +20,6 @@
  * isFunction('string'); // returns false
  * @returns {boolean} true if argument is function, false if not
  */
-const isFunction = item => item && {}.toString.call(item) === '[object Function]';
+const isFunction = item => !!(item && {}.toString.call(item) === '[object Function]');
 
 module.exports = isFunction;
