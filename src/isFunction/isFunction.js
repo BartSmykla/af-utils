@@ -4,12 +4,15 @@
  * @param {any} item anything which should be checked if is function
  * @example
  * const noop = () => {};
+ * 
  * isFunction(noop); // returns true
  * @example
  * function noop() {};
+ * 
  * isFunction(noop); // returns true
  * @example
  * const noop = function() {};
+ * 
  * isFunction(noop); // returns true
  * @example
  * isFunction({}); // returns false

@@ -114,14 +114,17 @@ Simple function which is checking if given argument is a function
 
 ```javascript
 const noop = () => {};
+
 isFunction(noop); // returns true
 ```
 ```javascript
 function noop() {};
+
 isFunction(noop); // returns true
 ```
 ```javascript
 const noop = function() {};
+
 isFunction(noop); // returns true
 ```
 ```javascript
