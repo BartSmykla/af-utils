@@ -14,7 +14,7 @@ describe('deepCompare', () => {
     [null, null],
     [undefined, undefined],
     [NaN, NaN],
-    [Infinity, Infinity]
+    [Infinity, Infinity],
   ];
 
   const wrongData = [
