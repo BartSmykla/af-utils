@@ -10,12 +10,16 @@
  * camelize('BAZFOO'); // returns 'bazfoo'
  * @returns {string} camelized string
  */
-const camelize = str =>
-  str.toLowerCase().replace(/^([A-Z])|[\s-_](\w)/g, (match, p1, p2) => {
+const camelize = (str) => {
+  if (typeof str !== 'string')
+    return '';
+
+  return str.toLowerCase().replace(/^([A-Z])|[\s-_](\w)/g, (match, p1, p2) => {
     if (p2)
       return p2.toUpperCase();
 
     return p1.toLowerCase();
   });
+}
 
 module.exports = camelize;

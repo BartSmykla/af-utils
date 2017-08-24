@@ -24,13 +24,13 @@ describe('isFunction', () => {
   }
 
   withData(args.true, (arg) => {
-    it('should return true when passed argumentt is a function', () => {
+    it('should return true when passed argument is a function', () => {
       expect(isFunction(arg)).to.be.equal(true);
     });
   });
 
   withData(args.false, (arg) => {
-    it('should return false when passed argumentt is any other (than function) type', () => {
+    it('should return false when passed argument is any other (than function) type', () => {
       expect(isFunction(arg)).to.be.equal(false);
     });
   });
