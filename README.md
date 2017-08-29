@@ -1,5 +1,7 @@
 # af-utils *1.1.5*
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tranotheron/af-utils.svg)](https://greenkeeper.io/)
+
 > bunch of utility/helper functions
 
 
