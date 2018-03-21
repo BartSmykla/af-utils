@@ -12,7 +12,7 @@
     "leche": "^2.2.1",
     "mocha": "^3.5.0",
     "nyc": "^11.1.0",
-    "sinon": "^3.2.1"
+    "sinon": "^4.4.7"
   },
   "scripts": {
     "docs": "./node_modules/.bin/doxdox --layout markdown --output README.md 'src/**/*.js'",
